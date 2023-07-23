@@ -1,0 +1,51 @@
+body {
+  background-color: #eee;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.filter-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+}
